@@ -1,0 +1,48 @@
+,organ_1,organ_2,organ_3
+ucsf_C11,musculo-skeletal,neurological,
+ucsf_C12,musculo-skeletal,neurological,sensory changes
+sinai_emory_C8,sensory changes,temperature regulation,g i
+ucsf_C6,sexual/hormonal function,sensory changes,musculo-skeletal
+sinai_emory_C2,sexual/hormonal function,g i,temperature regulation
+sinai_emory_C3,sexual/hormonal function,temperature regulation,sensory changes
+sinai_emory_C6,temperature regulation,sensory changes,neurological
+ucsf_C8,g i,musculo-skeletal,sensory changes
+ucsf_C3,sensory changes,musculo-skeletal,temperature regulation
+sinai_emory_C4,musculo-skeletal,neurological,sexual/hormonal function
+ucsf_C9,g i,musculo-skeletal,
+ucsf_C13,temperature regulation,g i,pulmonary
+ucsf_C1,pulmonary,musculo-skeletal,neurological
+cardiff_C1,cardiovascular,neurological,pulmonary
+sinai_emory_C1,temperature regulation,pulmonary,sexual/hormonal function
+sinai_emory_C5,neurological,temperature regulation,sexual/hormonal function
+ucsf_C10,g i,neurological,musculo-skeletal
+cardiff_C12,g i,neurological,
+ucsf_C4,musculo-skeletal,pulmonary,neurological
+ucsf_C2,pulmonary,neurological,g i
+ucsf_C5,pulmonary,neurological,musculo-skeletal
+ucsf_C7,pulmonary,sensory changes,neurological
+ucsf_C14,sensory changes,neurological,pulmonary
+ucsf_C15,sensory changes,musculo-skeletal,g i
+sinai_emory_C11,pulmonary,g i,neurological
+sinai_emory_C13,pulmonary,g i,temperature regulation
+sinai_emory_C10,pulmonary,temperature regulation,g i
+cardiff_C10,pulmonary,sensory changes,temperature regulation
+cardiff_C2,cardiovascular,pulmonary,neurological
+cardiff_C5,cardiovascular,pulmonary,neurological
+cardiff_C3,cardiovascular,pulmonary,neurological
+cardiff_C4,neurological,cardiovascular,pulmonary
+cardiff_C11,neurological,g i,cardiovascular
+sinai_emory_C7,pulmonary,musculo-skeletal,sensory changes
+cardiff_C9,g i,sensory changes,neurological
+cardiff_C15,neurological,pulmonary,cardiovascular
+cardiff_C6,neurological,sensory changes,musculo-skeletal
+cardiff_C7,neurological,sensory changes,cardiovascular
+sinai_emory_C16,musculo-skeletal,sensory changes,neurological
+cardiff_C13,neurological,musculo-skeletal,temperature regulation
+sinai_emory_C9,sexual/hormonal function,temperature regulation,sensory changes
+sinai_emory_C12,sexual/hormonal function,g i,musculo-skeletal
+sinai_emory_C14,sexual/hormonal function,temperature regulation,sensory changes
+sinai_emory_C15,sexual/hormonal function,temperature regulation,g i
+cardiff_C14,sensory changes,pulmonary,neurological
+cardiff_C8,neurological,g i,sensory changes
+cardiff_C16,g i,sensory changes,neurological

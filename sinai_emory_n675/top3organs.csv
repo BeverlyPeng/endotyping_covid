@@ -1,0 +1,17 @@
+,organ_1,organ_2,organ_3
+C13,neurological,sensory changes,g.i
+C10,neurological,pulmonary,sensory changes
+C11,neurological,pulmonary,g.i
+C14,musculo-skeletal,neurological,sexual/hormonal function
+C9,musculo-skeletal,neurological,temperature regulation
+C12,musculo-skeletal,g.i,sexual/hormonal function
+C15,sexual/hormonal function,sensory changes,musculo-skeletal
+C1,pulmonary,neurological,sensory changes
+C8,sensory changes,g.i,sexual/hormonal function
+C16,musculo-skeletal,cognitive/psych,sensory changes
+C7,sexual/hormonal function,musculo-skeletal,g.i
+C2,g.i,musculo-skeletal,sexual/hormonal function
+C3,musculo-skeletal,temperature regulation,sexual/hormonal function
+C5,cognitive/psych,neurological,
+C4,neurological,pulmonary,cognitive/psych
+C6,temperature regulation,neurological,sensory changes
