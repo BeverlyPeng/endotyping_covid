@@ -6,11 +6,11 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2025-09-18T12:28:07.802175</dc:date>
+    <dc:date>2025-10-27T13:23:17.056543</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
-      <dc:title>Matplotlib v3.7.2, https://matplotlib.org/</dc:title>
+      <dc:title>Matplotlib v3.8.2, https://matplotlib.org/</dc:title>
      </cc:Agent>
     </dc:creator>
    </cc:Work>
@@ -49,7 +49,7 @@ L 41.76 23.90175
 L 41.76 13.82175 
 L 12.96 13.82175 
 z
-" style="fill: #d9d9d9"/>
+" style="fill: #8dd3c7"/>
     </g>
     <g id="text_1">
      <!-- E0: mild -->
@@ -198,7 +198,7 @@ L 41.76 45.03825
 L 41.76 34.95825 
 L 12.96 34.95825 
 z
-" style="fill: #1f77b4"/>
+" style="fill: #ffffb3"/>
     </g>
     <g id="text_2">
      <!-- E1: neurological -->
@@ -435,7 +435,7 @@ L 41.76 66.17475
 L 41.76 56.09475 
 L 12.96 56.09475 
 z
-" style="fill: #1b9e77"/>
+" style="fill: #bebada"/>
     </g>
     <g id="text_3">
      <!-- E2: neurological, sensory changes -->
@@ -583,7 +583,7 @@ L 41.76 87.31125
 L 41.76 77.23125 
 L 12.96 77.23125 
 z
-" style="fill: #ff7f0e"/>
+" style="fill: #fb8072"/>
     </g>
     <g id="text_4">
      <!-- E3: musculo-skeletal, neurological -->
@@ -706,7 +706,7 @@ L 41.76 108.44775
 L 41.76 98.36775 
 L 12.96 98.36775 
 z
-" style="fill: #ffbb78"/>
+" style="fill: #80b1d3"/>
     </g>
     <g id="text_5">
      <!-- E4: g.i, neurological -->
@@ -768,7 +768,7 @@ L 41.76 129.58425
 L 41.76 119.50425 
 L 12.96 119.50425 
 z
-" style="fill: #2ca02c"/>
+" style="fill: #fdb462"/>
     </g>
     <g id="text_6">
      <!-- E5: sexual-hormonal function -->
@@ -872,7 +872,7 @@ L 41.76 150.72075
 L 41.76 140.64075 
 L 12.96 140.64075 
 z
-" style="fill: #98df8a"/>
+" style="fill: #b3de69"/>
     </g>
     <g id="text_7">
      <!-- E6: sensory changes -->
@@ -936,7 +936,7 @@ L 41.76 171.85725
 L 41.76 161.77725 
 L 12.96 161.77725 
 z
-" style="fill: #ff9896"/>
+" style="fill: #fccde5"/>
     </g>
     <g id="text_8">
      <!-- E7: pulmonary -->
@@ -1000,7 +1000,7 @@ L 41.76 192.99375
 L 41.76 182.91375 
 L 12.96 182.91375 
 z
-" style="fill: #de9ed6"/>
+" style="fill: #d9d9d9"/>
     </g>
     <g id="text_9">
      <!-- E8: pulmonary, neurological -->
@@ -1081,7 +1081,7 @@ L 41.76 214.13025
 L 41.76 204.05025 
 L 12.96 204.05025 
 z
-" style="fill: #9467bd"/>
+" style="fill: #bc80bd"/>
     </g>
     <g id="text_10">
      <!-- E9: cardiovascular, pulmonary, neurological -->

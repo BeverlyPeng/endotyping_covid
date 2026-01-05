@@ -6,11 +6,11 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2025-09-18T12:28:08.756974</dc:date>
+    <dc:date>2025-10-27T13:23:31.438158</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
-      <dc:title>Matplotlib v3.7.2, https://matplotlib.org/</dc:title>
+      <dc:title>Matplotlib v3.8.2, https://matplotlib.org/</dc:title>
      </cc:Agent>
     </dc:creator>
    </cc:Work>
@@ -49,7 +49,7 @@ L 122.070375 68.157
 L 136.470375 68.157 
 " style="fill: none; stroke: #ffffff; stroke-width: 1.5; stroke-linecap: square"/>
      <defs>
-      <path id="me5baeb1857" d="M 0 5 
+      <path id="mca50a67f95" d="M 0 5 
 C 1.326016 5 2.597899 4.473168 3.535534 3.535534 
 C 4.473168 2.597899 5 1.326016 5 0 
 C 5 -1.326016 4.473168 -2.597899 3.535534 -3.535534 
@@ -62,7 +62,7 @@ z
 " style="stroke: #000000"/>
      </defs>
      <g>
-      <use xlink:href="#me5baeb1857" x="122.070375" y="68.157" style="fill: #ffffff; stroke: #000000"/>
+      <use xlink:href="#mca50a67f95" x="122.070375" y="68.157" style="fill: #ffffff; stroke: #000000"/>
      </g>
     </g>
     <g id="text_1">
@@ -164,14 +164,14 @@ L 122.070375 89.2935
 L 136.470375 89.2935 
 " style="fill: none; stroke: #ffffff; stroke-width: 1.5; stroke-linecap: square"/>
      <defs>
-      <path id="mbf5578356c" d="M 0 -5 
+      <path id="m16be5b0e03" d="M 0 -5 
 L -5 5 
 L 5 5 
 z
 " style="stroke: #000000; stroke-linejoin: miter"/>
      </defs>
      <g>
-      <use xlink:href="#mbf5578356c" x="122.070375" y="89.2935" style="fill: #ffffff; stroke: #000000; stroke-linejoin: miter"/>
+      <use xlink:href="#m16be5b0e03" x="122.070375" y="89.2935" style="fill: #ffffff; stroke: #000000; stroke-linejoin: miter"/>
      </g>
     </g>
     <g id="text_2">
@@ -378,7 +378,7 @@ L 122.070375 110.43
 L 136.470375 110.43 
 " style="fill: none; stroke: #ffffff; stroke-width: 1.5; stroke-linecap: square"/>
      <defs>
-      <path id="maf9388a5d2" d="M -5 5 
+      <path id="m14e0a9b543" d="M -5 5 
 L 5 5 
 L 5 -5 
 L -5 -5 
@@ -386,7 +386,7 @@ z
 " style="stroke: #000000; stroke-linejoin: miter"/>
      </defs>
      <g>
-      <use xlink:href="#maf9388a5d2" x="122.070375" y="110.43" style="fill: #ffffff; stroke: #000000; stroke-linejoin: miter"/>
+      <use xlink:href="#m14e0a9b543" x="122.070375" y="110.43" style="fill: #ffffff; stroke: #000000; stroke-linejoin: miter"/>
      </g>
     </g>
     <g id="text_3">

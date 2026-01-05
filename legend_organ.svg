@@ -6,11 +6,11 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2025-09-18T12:28:06.630004</dc:date>
+    <dc:date>2025-10-27T13:23:06.700365</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
-      <dc:title>Matplotlib v3.7.2, https://matplotlib.org/</dc:title>
+      <dc:title>Matplotlib v3.8.2, https://matplotlib.org/</dc:title>
      </cc:Agent>
     </dc:creator>
    </cc:Work>
@@ -49,7 +49,7 @@ L 91.62675 23.90175
 L 91.62675 13.82175 
 L 62.82675 13.82175 
 z
-" style="fill: #1f77b4"/>
+" style="fill: #fbb4ae"/>
     </g>
     <g id="text_1">
      <!-- neurological -->
@@ -288,7 +288,7 @@ L 91.62675 45.03825
 L 91.62675 34.95825 
 L 62.82675 34.95825 
 z
-" style="fill: #aec7e8"/>
+" style="fill: #b3cde3"/>
     </g>
     <g id="text_2">
      <!-- cognitive/psych -->
@@ -449,7 +449,7 @@ L 91.62675 66.17475
 L 91.62675 56.09475 
 L 62.82675 56.09475 
 z
-" style="fill: #ff7f0e"/>
+" style="fill: #ccebc5"/>
     </g>
     <g id="text_3">
      <!-- musculo-skeletal -->
@@ -531,7 +531,7 @@ L 91.62675 87.31125
 L 91.62675 77.23125 
 L 62.82675 77.23125 
 z
-" style="fill: #ffbb78"/>
+" style="fill: #decbe4"/>
     </g>
     <g id="text_4">
      <!-- g.i -->
@@ -556,7 +556,7 @@ L 91.62675 108.44775
 L 91.62675 98.36775 
 L 62.82675 98.36775 
 z
-" style="fill: #2ca02c"/>
+" style="fill: #fed9a6"/>
     </g>
     <g id="text_5">
      <!-- sexual/hormonal function -->
@@ -632,7 +632,7 @@ L 91.62675 129.58425
 L 91.62675 119.50425 
 L 62.82675 119.50425 
 z
-" style="fill: #98df8a"/>
+" style="fill: #ffffcc"/>
     </g>
     <g id="text_6">
      <!-- sensory changes -->
@@ -660,7 +660,7 @@ L 91.62675 150.72075
 L 91.62675 140.64075 
 L 62.82675 140.64075 
 z
-" style="fill: #d62728"/>
+" style="fill: #e5d8bd"/>
     </g>
     <g id="text_7">
      <!-- temperature regulation -->
@@ -695,7 +695,7 @@ L 91.62675 171.85725
 L 91.62675 161.77725 
 L 62.82675 161.77725 
 z
-" style="fill: #ff9896"/>
+" style="fill: #fddaec"/>
     </g>
     <g id="text_8">
      <!-- pulmonary -->
@@ -717,7 +717,7 @@ L 91.62675 192.99375
 L 91.62675 182.91375 
 L 62.82675 182.91375 
 z
-" style="fill: #9467bd"/>
+" style="fill: #f2f2f2"/>
     </g>
     <g id="text_9">
      <!-- cardiovascular -->

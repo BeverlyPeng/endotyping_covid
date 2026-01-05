@@ -6,11 +6,11 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2025-09-18T12:28:07.219555</dc:date>
+    <dc:date>2025-10-27T13:23:09.659662</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
-      <dc:title>Matplotlib v3.7.2, https://matplotlib.org/</dc:title>
+      <dc:title>Matplotlib v3.8.2, https://matplotlib.org/</dc:title>
      </cc:Agent>
     </dc:creator>
    </cc:Work>
@@ -49,7 +49,7 @@ L 133.9155 23.90175
 L 133.9155 13.82175 
 L 105.1155 13.82175 
 z
-" style="fill: #d9d9d9"/>
+" style="fill: #8dd3c7"/>
     </g>
     <g id="text_1">
      <!-- E0 -->
@@ -102,7 +102,7 @@ L 133.9155 45.03825
 L 133.9155 34.95825 
 L 105.1155 34.95825 
 z
-" style="fill: #1f77b4"/>
+" style="fill: #ffffb3"/>
     </g>
     <g id="text_2">
      <!-- E1 -->
@@ -133,7 +133,7 @@ L 133.9155 66.17475
 L 133.9155 56.09475 
 L 105.1155 56.09475 
 z
-" style="fill: #1b9e77"/>
+" style="fill: #bebada"/>
     </g>
     <g id="text_3">
      <!-- E2 -->
@@ -174,7 +174,7 @@ L 133.9155 87.31125
 L 133.9155 77.23125 
 L 105.1155 77.23125 
 z
-" style="fill: #ff7f0e"/>
+" style="fill: #fb8072"/>
     </g>
     <g id="text_4">
      <!-- E3 -->
@@ -223,7 +223,7 @@ L 133.9155 108.44775
 L 133.9155 98.36775 
 L 105.1155 98.36775 
 z
-" style="fill: #ffbb78"/>
+" style="fill: #80b1d3"/>
     </g>
     <g id="text_5">
      <!-- E4 -->
@@ -259,7 +259,7 @@ L 133.9155 129.58425
 L 133.9155 119.50425 
 L 105.1155 119.50425 
 z
-" style="fill: #2ca02c"/>
+" style="fill: #fdb462"/>
     </g>
     <g id="text_6">
      <!-- E5 -->
@@ -301,7 +301,7 @@ L 133.9155 150.72075
 L 133.9155 140.64075 
 L 105.1155 140.64075 
 z
-" style="fill: #98df8a"/>
+" style="fill: #b3de69"/>
     </g>
     <g id="text_7">
      <!-- E6 -->
@@ -348,7 +348,7 @@ L 133.9155 171.85725
 L 133.9155 161.77725 
 L 105.1155 161.77725 
 z
-" style="fill: #ff9896"/>
+" style="fill: #fccde5"/>
     </g>
     <g id="text_8">
      <!-- E7 -->
@@ -375,7 +375,7 @@ L 133.9155 192.99375
 L 133.9155 182.91375 
 L 105.1155 182.91375 
 z
-" style="fill: #de9ed6"/>
+" style="fill: #d9d9d9"/>
     </g>
     <g id="text_9">
      <!-- E8 -->
@@ -431,7 +431,7 @@ L 133.9155 214.13025
 L 133.9155 204.05025 
 L 105.1155 204.05025 
 z
-" style="fill: #9467bd"/>
+" style="fill: #bc80bd"/>
     </g>
     <g id="text_10">
      <!-- E9 -->
