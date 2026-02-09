@@ -1,17 +1,17 @@
 ,organ_1,organ_2,organ_3
-C16,g.i,temperature regulation,sensory changes
-C9,neurological,pulmonary,sensory changes
-C7,pulmonary,neurological,sensory changes
-C11,neurological,sensory changes,pulmonary
-C14,sexual/hormonal function,sensory changes,g.i
-C10,musculo-skeletal,sensory changes,sexual/hormonal function
-C12,sensory changes,sexual/hormonal function,musculo-skeletal
-C13,musculo-skeletal,cognitive/psych,temperature regulation
-C5,musculo-skeletal,sensory changes,sexual/hormonal function
-C6,sexual/hormonal function,g.i,musculo-skeletal
-C4,cognitive/psych,neurological,
-C8,sexual/hormonal function,cognitive/psych,neurological
-C2,musculo-skeletal,neurological,
-C3,musculo-skeletal,sexual/hormonal function,sensory changes
-C1,pulmonary,sensory changes,neurological
-C15,neurological,cognitive/psych,
+C16,Gastrointestinal,Temperature Regulation,Sensory Changes
+C9,Neurological,Pulmonary,Sensory Changes
+C7,Pulmonary,Neurological,Sensory Changes
+C11,Neurological,Sensory Changes,Pulmonary
+C14,Sexual/Hormonal Function,Sensory Changes,Gastrointestinal
+C10,Musculo-Skeletal,Sensory Changes,Sexual/Hormonal Function
+C12,Sensory Changes,Sexual/Hormonal Function,Musculo-Skeletal
+C13,Musculo-Skeletal,Cognitive/Psych,Temperature Regulation
+C5,Musculo-Skeletal,Sensory Changes,Sexual/Hormonal Function
+C6,Sexual/Hormonal Function,Gastrointestinal,Musculo-Skeletal
+C4,Cognitive/Psych,Sensory Changes,Neurological
+C8,Sexual/Hormonal Function,Cognitive/Psych,Neurological
+C2,Musculo-Skeletal,Neurological,
+C3,Musculo-Skeletal,Sexual/Hormonal Function,Sensory Changes
+C1,Pulmonary,Sensory Changes,Neurological
+C15,Neurological,Cognitive/Psych,Sensory Changes
