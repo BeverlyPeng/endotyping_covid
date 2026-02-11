@@ -1,17 +1,17 @@
 ,organ_1,organ_2,organ_3
-C9,g.i,musculo-skeletal,sensory changes
-C8,g.i,musculo-skeletal,
-C11,g.i,musculo-skeletal,
-C14,pulmonary,temperature regulation,sensory changes
-C16,temperature regulation,g.i,pulmonary
-C13,sexual/hormonal function,musculo-skeletal,temperature regulation
-C1,cardiovascular,pulmonary,neurological
-C12,g.i,cognitive/psych,sensory changes
-C15,pulmonary,temperature regulation,musculo-skeletal
-C6,musculo-skeletal,sensory changes,neurological
-C7,sensory changes,musculo-skeletal,neurological
-C10,pulmonary,temperature regulation,neurological
-C3,cognitive/psych,cardiovascular,pulmonary
-C4,sensory changes,cardiovascular,cognitive/psych
-C2,cardiovascular,cognitive/psych,pulmonary
-C5,cardiovascular,pulmonary,neurological
+C9,Gastrointestinal,Musculo-Skeletal,Sensory Changes
+C8,Gastrointestinal,Musculo-Skeletal,
+C11,Gastrointestinal,Musculo-Skeletal,
+C14,Pulmonary,Temperature Regulation,Sensory Changes
+C16,Temperature Regulation,Gastrointestinal,Pulmonary
+C13,Sexual/Hormonal Function,Musculo-Skeletal,Temperature Regulation
+C1,Cardiovascular,Pulmonary,Neurological
+C12,Gastrointestinal,Cognitive/Psych,Sensory Changes
+C15,Pulmonary,Temperature Regulation,Musculo-Skeletal
+C6,Musculo-Skeletal,Sensory Changes,Neurological
+C7,Sensory Changes,Musculo-Skeletal,Neurological
+C10,Pulmonary,Temperature Regulation,Neurological
+C3,Cognitive/Psych,Cardiovascular,Pulmonary
+C4,Sensory Changes,Cardiovascular,Cognitive/Psych
+C2,Cardiovascular,Cognitive/Psych,Pulmonary
+C5,Cardiovascular,Pulmonary,Neurological
