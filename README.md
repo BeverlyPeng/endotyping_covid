@@ -6,20 +6,27 @@ Preprint: Peng et al. 2025 [https://www.biorxiv.org/content/10.1101/2025.04.10.6
 ## Steps to run analysis
 
 ### ETL each cohort's symptom surveys. 
+
 code: data_qc/data_qc_{cohort}.ipynb.
 
 ### Run topic modeling. 
+
 code: Subphenotyping-for-PASC/Python code for training topic modeling/Main_train_topic_model.py
-Zhang, H., Zang, C., Xu, Z. et al. Data-driven identification of post-acute SARS-CoV-2 infection subphenotypes. Nat Med 29, 226–235 (2023). https://doi.org/10.1038/s41591-022-02116-3
-[Github link](https://github.com/HaoZhangXidian/Subphenotyping-for-PASC)
+
+- code from: Zhang, H., Zang, C., Xu, Z. et al. Data-driven identification of post-acute SARS-CoV-2 infection subphenotypes. Nat Med 29, 226–235 (2023). https://doi.org/10.1038/s41591-022-02116-3
+
+- [Github link](https://github.com/HaoZhangXidian/Subphenotyping-for-PASC)
 
 ### Calculate optimal number of topics.
+
 code: get_num_topics.ipynb
 
 ### Calculate optimal clustering method and number of clusters.
+
 code: get_n_clusters.ipynb
 
 ### Interpret topic modeling results.
+
 code: {cohort}/results_*.ipynb
 
 <img src="workflow.png" height="500">
