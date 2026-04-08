@@ -39,6 +39,8 @@ Preprint: Peng et al. 2025 [https://www.biorxiv.org/content/10.1101/2025.04.10.6
 
 `meta_analysis/results_meta.ipynb`
 
+### Workflow
+
 <img src="workflow.png" height="600">
 
 ## Cohorts
