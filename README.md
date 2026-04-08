@@ -22,9 +22,7 @@ Preprint: Peng et al. 2025 [https://www.biorxiv.org/content/10.1101/2025.04.10.6
 5. Interpret topic modeling results.
   - code: {cohort}/results_*.ipynb
 
-<img src="workflow.png">
 
-<img src="workflow.png" width="110" height="125">
 
 ## Cohorts
 
