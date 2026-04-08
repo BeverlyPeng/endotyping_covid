@@ -9,6 +9,8 @@ Preprint: Peng et al. 2025 [https://www.biorxiv.org/content/10.1101/2025.04.10.6
 
 `data_qc/data_qc_{cohort}.ipynb`
 
+See data dictionary mapping symptoms across cohorts and organ systems in Supplementary Materials.xlsx Table 1.
+
 ### Run topic modeling. 
 
 `Subphenotyping-for-PASC/Python code for training topic modeling/Main_train_topic_model.py`
@@ -28,6 +30,12 @@ Preprint: Peng et al. 2025 [https://www.biorxiv.org/content/10.1101/2025.04.10.6
 ### Interpret topic modeling results.
 
 `{cohort}/results_*.ipynb`
+
+See results in Supplementary Materials.xlsx Tables 2-5 (including cluster assignment, severity group, top 6 signature symptoms, top 3 organ systems).
+
+### Run meta-analysis on all patients across 4 cohorts. 
+
+`meta_analysis/results_meta.ipynb`
 
 <img src="workflow.png" height="600">
 
