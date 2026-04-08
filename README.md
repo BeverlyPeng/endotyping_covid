@@ -22,7 +22,7 @@ code: get_n_clusters.ipynb
 ### Interpret topic modeling results.
 code: {cohort}/results_*.ipynb
 
-<img src="workflow.png">
+<img src="workflow.png" height="100">
 
 ## Cohorts
 
