@@ -7,7 +7,7 @@ Preprint: Peng et al. 2025 [https://www.biorxiv.org/content/10.1101/2025.04.10.6
 
 ### ETL each cohort's symptom surveys. 
 
-code: data_qc/data_qc_{cohort}.ipynb.
+`data_qc/data_qc_{cohort}.ipynb`
 
 ### Run topic modeling. 
 
