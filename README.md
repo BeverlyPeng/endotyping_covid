@@ -15,6 +15,10 @@ Supplementary Materials: https://github.com/BeverlyPeng/endotyping_covid/blob/ma
 | ucsf_n222 | UCSF cohort subset, n = 222 | 
 | ucsf_n669 | UCSF cohort, n = 669: longitudinal with balanced demographics | 
 
+### Workflow
+
+<img src="workflow.png" height="600">
+
 ## Steps to run analysis
 
 ### Step 1: Processing each cohort's symptom surveys. 
@@ -65,9 +69,7 @@ Ex. ucsf_n669/results_ucsf_n669_22topics_15clusters_model.ipynb
 
 `meta_analysis/results_meta.ipynb`
 
-### Workflow
-
-<img src="workflow.png" height="600">
+- This file includes code for loading each cohort's topic modeling results, combining for meta-analysis, and generating plots for publication. 
 
 ## Cohorts
 
@@ -81,8 +83,7 @@ Emory (N = 60): Emory University, Atlanta, GA, USA
 
 Cardiff (N = 317): University Hospital of Wales, Cardiff, UK
 
-
-See below for Github directory organization. 
+## Github Directory Organization
 
 ```bash
 ├── 📂Subphenotyping-for-PASC
@@ -114,41 +115,41 @@ See below for Github directory organization.
 │   │   ├── median_cluster1.svg
 │   │   ├── median_cluster2.svg
 │   │   └── ...
-│   ├── cluster_assignments_ucsf_n669_22topics_15clusters.csv
-│   ├── cluster_by_symptom_col.png
-│   ├── cluster_by_symptom_row.png
-│   ├── clusters_minibatch_15.csv
-│   ├── comorb_proportions_ucsf_n669.csv
-│   ├── embedding.npy
-│   ├── endotypes.png
-│   ├── eq5d_cluster.svg
-│   ├── eq5d_endotype.svg
-│   ├── eq5d_severity_1st_2nd.svg
-│   ├── eq5d_severity_mild_mod_severe.svg
-│   ├── likelihood_avg_n669.svg
-│   ├── likelihood_individual_n286.svg
-│   ├── likelihood_individual_n669.svg
-│   ├── pie_cluster_eq5d.svg
-│   ├── pie_endotype_eq5d.svg
-│   ├── proportion_sex.svg
-│   ├── raw_surveys_ucsf_n669.csv
-│   ├── results_ucsf_n669_22topics_15clusters_model.ipynb
-│   ├── severity_curve.svg
-│   ├── survey_bins.svg
-│   ├── symptoms.png
-│   ├── symptoms_over_time_decreasing.svg
-│   ├── symptoms_over_time_increasing.svg
-│   ├── symptoms_over_time_mountain.svg
-│   ├── top3organs.csv
-│   ├── top6symptoms.csv
-│   ├── topic_coherence_avg_n669.svg
-│   ├── topic_coherence_individual_n286.svg
-│   ├── topic_coherence_individual_n669.svg
-│   ├── UCSF_EQ5D_correlation_ML-severity.svg
-│   ├── umap.svg
-│   ├── umap_0to30.svg
-│   ├── umap_31to90.svg
-│   └── umap_90after.svg
+│   ├── cluster_assignments_ucsf_n669_22topics_15clusters.csv     // contains each patients' cluster, endotype, and severity group assignment, severity score, top symptoms, top organ systems, covariates, and symptoms
+│   ├── cluster_by_symptom_col.png                                // cluster by symptom heatmap, normalized by column
+│   ├── cluster_by_symptom_row.png                                // cluster by symptom heatmap, normalized by row
+│   ├── clusters_minibatch_15.csv                                 // cluster assignments of each patient, clustering_method = minibatch, n_clusters = 15
+│   ├── comorb_proportions_ucsf_n669.csv                          // comorbidity proportions for each cluster
+│   ├── embedding.npy                                             // umap coordinates from topic proportions
+│   ├── endotypes.png                                             // table of endotype to cluster mapping with top 3 organ systems
+│   ├── eq5d_cluster.svg                                          // barplot comparing EQ-5D scores between first and last survey across clusters
+│   ├── eq5d_endotype.svg                                         // barplot comparing EQ-5D scores between first and last survey across endotypes
+│   ├── eq5d_severity_1st_2nd.svg                                 // barplot comparing EQ-5D scores between severity groups across first and last surveys 
+│   ├── eq5d_severity_mild_mod_severe.svg                         // barplot comparing EQ-5D scores between first and last surveys across severity groups
+│   ├── likelihood_avg_n669.svg                                   // plot of likelihood mean against number of topics (average of 10 runs) for ucsf_n669
+│   ├── likelihood_individual_n286.svg                            // plot of likelihood mean against number of topics for ucsf_n286 subset
+│   ├── likelihood_individual_n669.svg                            // plot of likelihood mean against number of topics for ucsf_n669
+│   ├── pie_cluster_eq5d.svg                                      // pie chart showing cluster composition for non-recovered and recovered groups
+│   ├── pie_endotype_eq5d.svg                                     // pie chart showing endotype composition for non-recovered and recovered groups
+│   ├── proportion_sex.svg                                        // barplots of the sex proportion for each cluster
+│   ├── raw_surveys_ucsf_n669.csv                                 // raw surveys for each patient
+│   ├── results_ucsf_n669_22topics_15clusters_model.ipynb         // Jupyter Notebook for processing results and generating figures
+│   ├── severity_curve.svg                                        // severity score per cluster
+│   ├── survey_bins.svg                                           // histogram of when surveys where completed
+│   ├── symptoms.png                                              // table of top 6 symptoms per cluster
+│   ├── symptoms_over_time_decreasing.svg                         // plots showing how patients' symptoms change over time (symptoms decreasing with time)
+│   ├── symptoms_over_time_increasing.svg                         // plots showing how patients' symptoms change over time (symptoms increasing with time)
+│   ├── symptoms_over_time_mountain.svg                           // plots showing how patients' symptoms change over time (symptoms remaining stable with time)
+│   ├── top3organs.csv                                            // table of top 3 organ systems per cluster
+│   ├── top6symptoms.csv                                          // table of top 6 symptoms per cluster
+│   ├── topic_coherence_avg_n669.svg                              // plot of topic coherence against number of topics (average of 10 runs) for ucsf_n669
+│   ├── topic_coherence_individual_n286.svg                       // plot of topic coherence against number of topics for ucsf_n286 subset
+│   ├── topic_coherence_individual_n669.svg                       // plot of topic coherence against number of topics for ucsf_n669
+│   ├── UCSF_EQ5D_correlation_ML-severity.svg                     // plot of mean EQ-5D score against ML-predicted severity score
+│   ├── umap.svg                                                  // umap of ucsf_n669, colored by minibatch 15 clusters
+│   ├── umap_0to30.svg                                            // umap of ucsf_n669, subset to surveys within 0-30 days, colored by minibatch 15 clusters
+│   ├── umap_31to90.svg                                           // umap of ucsf_n669, subset to surveys within 31-90 days, colored by minibatch 15 clusters
+│   └── umap_90after.svg                                          // umap of ucsf_n669, subset to surveys after 90 days, colored by minibatch 15 clusters
 ├── LICENSE.txt
 ├── README.md
 ├── Supplementary Materials.xlsx
