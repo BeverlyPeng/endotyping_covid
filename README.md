@@ -19,7 +19,9 @@ Preprint: Peng et al. 2025 [https://www.biorxiv.org/content/10.1101/2025.04.10.6
 
 Ex. `data_qc/data_qc_ucsf.ipynb`
 
-See data dictionary mapping symptoms across cohorts and organ systems in Supplementary Materials.xlsx Table 1.
+- See data dictionary mapping symptoms across cohorts and organ systems in Supplementary Materials.xlsx Table 1.
+
+<img src="organ_system_mapping.png" height="300">
 
 ### Step 2: Run topic modeling. 
 
@@ -43,9 +45,13 @@ See data dictionary mapping symptoms across cohorts and organ systems in Supplem
 
 `{cohort}/results_*.ipynb`
 
+<<<<<<< HEAD
 Ex. ucsf_n669/results_ucsf_n669_22topics_15clusters_model.ipynb
 
 See results in Supplementary Materials.xlsx Tables 2-5 (including cluster assignment, severity group, top 6 signature symptoms, top 3 organ systems).
+=======
+- See results in Supplementary Materials.xlsx Tables 2-5 (including cluster assignment, severity group, top 6 signature symptoms, top 3 organ systems).
+>>>>>>> 0ea8c24600765ffc6b5b8d5132fcaa86f110eb40
 
 ```bash
 ├── Subphenotyping-for-PASC
@@ -135,6 +141,8 @@ See results in Supplementary Materials.xlsx Tables 2-5 (including cluster assign
 
 `meta_analysis/results_meta.ipynb`
 
+### Workflow
+
 <img src="workflow.png" height="600">
 
 ## Cohorts
@@ -147,8 +155,6 @@ Emory (N = 60): Emory University, Atlanta, GA, USA
 
 - combined with ISMSS leads to results in sinai_emory_n675
 
-* combined with ISMSS leads to results in sinai_emory_n675
-
 Cardiff (N = 317): University Hospital of Wales, Cardiff, UK
 
 ## License
@@ -157,9 +163,9 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgments
 
-* PolyBio Research Foundation (Balvi B43)
-* Steven & Alexandra Cohen Foundation
-* U.S. National Institues of Health (NIH) (K23AI157875, R01AI141003, 1R01NS136197, R01AI184931, P01AI168347, U01AI187057, P01AI125180-05S1, R01AI172254, P01AI078907, U01AI045969, U19AI109962, U54CA260563, T32HL116271, 5T32AI074492)
-* NIH RECOVER (1OT2HL156812-01)
-* UK National Institute for Health and Care Research (COV-LT2-0041)
-* Intramural Research Program of the NIH
+- PolyBio Research Foundation (Balvi B43)
+- Steven & Alexandra Cohen Foundation
+- U.S. National Institues of Health (NIH) (K23AI157875, R01AI141003, 1R01NS136197, R01AI184931, P01AI168347, U01AI187057, P01AI125180-05S1, R01AI172254, P01AI078907, U01AI045969, U19AI109962, U54CA260563, T32HL116271, 5T32AI074492)
+- NIH RECOVER (1OT2HL156812-01)
+- UK National Institute for Health and Care Research (COV-LT2-0041)
+- Intramural Research Program of the NIH
