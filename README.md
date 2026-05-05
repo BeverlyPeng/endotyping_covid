@@ -45,6 +45,8 @@ Ex. `data_qc/data_qc_ucsf.ipynb`
 
 `{cohort}/results_*.ipynb`
 
+Ex. ucsf_n669/results_ucsf_n669_22topics_15clusters_model.ipynb
+
 - See results in Supplementary Materials.xlsx Tables 2-5 (including cluster assignment, severity group, top 6 signature symptoms, top 3 organ systems).
 
 ```bash
