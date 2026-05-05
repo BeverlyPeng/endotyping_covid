@@ -31,7 +31,7 @@ Ex. `data_qc/data_qc_ucsf.ipynb`
 
 - Data dictionary mapping symptoms across cohorts and organ systems can be found in Supplementary Materials.xlsx Table 1.
 
-The following table maps the organ systems to symptoms. 
+The following table maps symptoms to organ systems, predefined by community standards. 
 
 <img src="organ_system_mapping.png" height="300">
 
