@@ -45,13 +45,7 @@ Ex. `data_qc/data_qc_ucsf.ipynb`
 
 `{cohort}/results_*.ipynb`
 
-<<<<<<< HEAD
-Ex. ucsf_n669/results_ucsf_n669_22topics_15clusters_model.ipynb
-
-See results in Supplementary Materials.xlsx Tables 2-5 (including cluster assignment, severity group, top 6 signature symptoms, top 3 organ systems).
-=======
 - See results in Supplementary Materials.xlsx Tables 2-5 (including cluster assignment, severity group, top 6 signature symptoms, top 3 organ systems).
->>>>>>> 0ea8c24600765ffc6b5b8d5132fcaa86f110eb40
 
 ```bash
 ├── Subphenotyping-for-PASC
