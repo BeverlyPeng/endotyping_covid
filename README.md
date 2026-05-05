@@ -168,7 +168,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgments
 
-- PolyBio Research Foundation (Balvi B43 to Cardiff, and <a href="https://polybio.org/new-machine-learning-study-identifies-distinct-long-covid-symptom-endotypes-across-four-major-cohorts/"> Endotyping to JCVI</a>)
+- PolyBio Research Foundation (Balvi B43 at Cardiff, and <a href="https://polybio.org/new-machine-learning-study-identifies-distinct-long-covid-symptom-endotypes-across-four-major-cohorts/"> Endotyping at JCVI</a>)
 - Steven & Alexandra Cohen Foundation
 - U.S. National Institues of Health (NIH) (K23AI157875, R01AI141003, 1R01NS136197, R01AI184931, P01AI168347, U01AI187057, P01AI125180-05S1, R01AI172254, P01AI078907, U01AI045969, U19AI109962, U54CA260563, T32HL116271, 5T32AI074492)
 - NIH RECOVER (1OT2HL156812-01)
