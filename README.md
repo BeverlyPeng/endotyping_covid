@@ -31,7 +31,7 @@ Ex. `data_qc/data_qc_ucsf.ipynb`
 
 - Data dictionary mapping symptoms across cohorts and organ systems can be found in Supplementary Materials.xlsx Table 1.
 
-The following table maps symptoms to organ systems, predefined by community standards. 
+The following table maps symptoms to organ systems, predefined by community standards: 
 
 <img src="organ_system_mapping.png" height="300">
 
@@ -39,23 +39,25 @@ The following table maps symptoms to organ systems, predefined by community stan
 
 `Subphenotyping-for-PASC/Python code for training topic modeling/Main_train_topic_model.py`
 
-- Original code from: Zhang, H., Zang, C., Xu, Z. et al. Data-driven identification of post-acute SARS-CoV-2 infection subphenotypes. Nat Med 29, 226–235 (2023). https://doi.org/10.1038/s41591-022-02116-3
+- Original Method and Code by Zhang et al: https://doi.org/10.1038/s41591-022-02116-3. Data-driven identification of post-acute SARS-CoV-2 infection subphenotypes. Nat Med 29, 226–235 (2023)
 
-- Changed input dataset.
+- Code for Deep Poisson Factor Modeling by Gan et al: https://github.com/zhegan27/dpfa_icml2015. Scalable Deep Poisson Factor Analysis for Topic Modeling, ICML 2015.
 
-- Iterated through 2-80 topics 10 times. 
+- Iterated through 2-80 topics 10 times, based on our experiment results below:
+
+<img src="averaging_for_topics.png" height="300">
 
 ### Step 3: Calculate optimal number of topics.
 
 `get_num_topics.ipynb`
 
-- This file includes calculating topic coherence and data likelihood and plotting to find the optimal number of topics. 
+- This notebook includes calculating topic coherence and data likelihood and plotting to find the optimal number of topics. 
 
 ### Step 4: Calculate optimal clustering method and number of clusters.
 
 `get_n_clusters.ipynb`
 
-- This file includes testing combinations of cluster methods and number of clusters and choosing based on silhouette score. 
+- This notebook includes testing combinations of cluster methods and number of clusters and choosing based on silhouette score. 
 
 ### Step 5: Interpret topic modeling results.
 
@@ -63,7 +65,7 @@ The following table maps symptoms to organ systems, predefined by community stan
 
 Ex. ucsf_n669/results_ucsf_n669_22topics_15clusters_model.ipynb
 
-- This file includes code for interpreting topic modeling results and generating plots for publication. 
+- This notebook includes code for interpreting topic modeling results and generating plots for publication. 
 
 - See results in Supplementary Materials.xlsx Tables 2-5 (including cluster assignment, severity group, top 6 signature symptoms, top 3 organ systems).
 
@@ -71,7 +73,7 @@ Ex. ucsf_n669/results_ucsf_n669_22topics_15clusters_model.ipynb
 
 `meta_analysis/results_meta.ipynb`
 
-- This file includes code for loading each cohort's topic modeling results, combining for meta-analysis, and generating plots for publication. 
+- This notebook includes code for loading each cohort's topic modeling results, combining for meta-analysis, and generating plots for publication. 
 
 ## Cohorts
 
