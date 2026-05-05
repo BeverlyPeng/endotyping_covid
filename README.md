@@ -45,7 +45,7 @@ The following table maps symptoms to organ systems, predefined by community stan
 
 - Code for Deep Poisson Factor Modeling by Gan et al: https://github.com/zhegan27/dpfa_icml2015. Scalable Deep Poisson Factor Analysis for Topic Modeling, ICML 2015.
 
-- Iterated through 2-80 topics 10 times, based on our experiment results below:
+- Iterated through 2-80 topics 10 times, based on our experiment results (2-50 topics shown) below:
 
 <img src="averaging_for_topics.png" height="300">
 
