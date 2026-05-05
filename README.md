@@ -39,7 +39,7 @@ The following table maps symptoms to organ systems, predefined by community stan
 
 `Subphenotyping-for-PASC/Python code for training topic modeling/Main_train_topic_model.py`
 
-- Original Method and Code by Zhang et al: https://doi.org/10.1038/s41591-022-02116-3. Data-driven identification of post-acute SARS-CoV-2 infection subphenotypes. Nat Med 29, 226–235 (2023)
+- Original Method and Code by Zhang et al: https://doi.org/10.1038/s41591-022-02116-3. Data-driven identification of post-acute SARS-CoV-2 infection subphenotypes. Nature Medicine 29, 226–235 (2023)
 
 - Code for Deep Poisson Factor Modeling by Gan et al: https://github.com/zhegan27/dpfa_icml2015. Scalable Deep Poisson Factor Analysis for Topic Modeling, ICML 2015.
 
