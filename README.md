@@ -27,9 +27,11 @@ Supplementary Materials: https://github.com/BeverlyPeng/endotyping_covid/blob/ma
 
 Ex. `data_qc/data_qc_ucsf.ipynb`
 
-- This file includes reading in raw Excel files containing surveys and comorbidities, subsetting to wanted surveys, quality controlling, and generating basic plots. 
+- This file includes reading in raw Excel files containing surveys and comorbidities, subsetting to included surveys, quality control, and generating basic plots. 
 
 - See data dictionary mapping symptoms across cohorts and organ systems in Supplementary Materials.xlsx Table 1.
+
+The following table maps the organ systems to symptoms. 
 
 <img src="organ_system_mapping.png" height="300">
 
@@ -86,6 +88,7 @@ Cardiff (N = 317): University Hospital of Wales, Cardiff, UK
 ## Github Directory Organization
 
 ```bash
+📦endotyping_covid
 ├── 📂Subphenotyping-for-PASC
 │   ├── 📂Python code for trianing topic modeling
 │   │   ├── 📂pydpm
