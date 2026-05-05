@@ -27,9 +27,9 @@ Supplementary Materials: https://github.com/BeverlyPeng/endotyping_covid/blob/ma
 
 Ex. `data_qc/data_qc_ucsf.ipynb`
 
-- This file includes reading in raw Excel files containing surveys and comorbidities, subsetting to included surveys, quality control, and generating basic plots. 
+- This Jupyter notebook includes reading in raw Excel files containing surveys and comorbidities, subsetting to included surveys, quality control, and generating basic plots. 
 
-- See data dictionary mapping symptoms across cohorts and organ systems in Supplementary Materials.xlsx Table 1.
+- Data dictionary mapping symptoms across cohorts and organ systems can be found in Supplementary Materials.xlsx Table 1.
 
 The following table maps the organ systems to symptoms. 
 
