@@ -1,7 +1,11 @@
 
 # Machine Learning Analysis of Clinical Questionnaires Identifies Clusters, Severity Groups, and Trajectories of Post-Acute COVID Symptoms
 
+This Github repository provides the code and result files related to the following manuscript. 
+
 Preprint: Peng et al. 2025 [https://www.biorxiv.org/content/10.1101/2025.04.10.648034v1](https://www.biorxiv.org/content/10.1101/2025.04.10.648034v1).
+
+Supplementary Materials: https://github.com/BeverlyPeng/endotyping_covid/blob/main/Supplementary%20Materials.xlsx
 
 | Folder Name | Description |
 |----------|----------|
@@ -19,6 +23,8 @@ Preprint: Peng et al. 2025 [https://www.biorxiv.org/content/10.1101/2025.04.10.6
 
 Ex. `data_qc/data_qc_ucsf.ipynb`
 
+- This file includes reading in raw Excel files containing surveys and comorbidities, subsetting to wanted surveys, quality controlling, and generating basic plots. 
+
 - See data dictionary mapping symptoms across cohorts and organ systems in Supplementary Materials.xlsx Table 1.
 
 <img src="organ_system_mapping.png" height="300">
@@ -29,7 +35,7 @@ Ex. `data_qc/data_qc_ucsf.ipynb`
 
 - Original code from: Zhang, H., Zang, C., Xu, Z. et al. Data-driven identification of post-acute SARS-CoV-2 infection subphenotypes. Nat Med 29, 226–235 (2023). https://doi.org/10.1038/s41591-022-02116-3
 
-- Changed input dataset
+- Changed input dataset.
 
 - Iterated through 2-80 topics 10 times. 
 
@@ -37,45 +43,74 @@ Ex. `data_qc/data_qc_ucsf.ipynb`
 
 `get_num_topics.ipynb`
 
+- This file includes calculating topic coherence and data likelihood and plotting to find the optimal number of topics. 
+
 ### Step 4: Calculate optimal clustering method and number of clusters.
 
 `get_n_clusters.ipynb`
 
+- This file includes testing combinations of cluster methods and number of clusters and choosing based on silhouette score. 
+
 ### Step 5: Interpret topic modeling results.
 
-`{cohort}/results_*.ipynb`
+`{cohort}/results_{cohort}_*.ipynb`
 
 Ex. ucsf_n669/results_ucsf_n669_22topics_15clusters_model.ipynb
 
+- This file includes code for interpreting topic modeling results and generating plots for publication. 
+
 - See results in Supplementary Materials.xlsx Tables 2-5 (including cluster assignment, severity group, top 6 signature symptoms, top 3 organ systems).
 
+### Step 6: Run meta-analysis on all patients across 4 cohorts. 
+
+`meta_analysis/results_meta.ipynb`
+
+### Workflow
+
+<img src="workflow.png" height="600">
+
+## Cohorts
+
+UCSF (N = 669): University of California, San Francisco, CA, USA
+
+ISMMS (N = 615): Icahn School of Medicine at Mount Sinai, New York, NY, USA
+
+Emory (N = 60): Emory University, Atlanta, GA, USA
+
+- combined with ISMSS leads to results in sinai_emory_n675
+
+Cardiff (N = 317): University Hospital of Wales, Cardiff, UK
+
+
+See below for Github directory organization. 
+
 ```bash
-├── Subphenotyping-for-PASC
-│   ├── Python code for trianing topic modeling
-│   │   ├── pydpm
+├── 📂Subphenotyping-for-PASC
+│   ├── 📂Python code for trianing topic modeling
+│   │   ├── 📂pydpm
 │   │   ├── Main_train_topic_model.py
 │   │   └── run.sh
-├── cardiff_n317
+├── 📂cardiff_n317
 │   └── similar structure as ucsf_n669
-├── data_qc
-├── legends
-├── meta_analysis
-├── sinai_emory_n675
+├── 📂data_qc
+├── 📂legends
+├── 📂meta_analysis
+├── 📂sinai_emory_n675
 │   └── similar structure as ucsf_n669
-├── sinai_n615
+├── 📂sinai_n615
 │   └── similar structure as ucsf_n669
-├── ucsf_n222
+├── 📂ucsf_n222
 │   └── similar structure as ucsf_n669
-├── ucsf_n669
-│   ├── comorb
+├── 📂ucsf_n669
+│   ├── 📂comorb
 │   │   ├── proportion_auto.svg
 │   │   ├── proportion_cancer.svg
 │   │   └── ...
-│   ├── individual
+│   ├── 📂individual
 │   │   ├── individual_cluster1.svg
 │   │   ├── individual_cluster2.svg
 │   │   └── ...
-│   ├── median
+│   ├── 📂median
 │   │   ├── median_cluster1.svg
 │   │   ├── median_cluster2.svg
 │   │   └── ...
@@ -122,36 +157,6 @@ Ex. ucsf_n669/results_ucsf_n669_22topics_15clusters_model.ipynb
 ├── organ_system_mapping.png
 └── workflow.png
 ```
-
-```
-📦endotyping_covid
- ┗ 📂folder
-   ┗📂folder
-    ┣📂file
-    ┣📂file
-    ┣📂file
-    ┗📂file
-```
-
-### Step 6: Run meta-analysis on all patients across 4 cohorts. 
-
-`meta_analysis/results_meta.ipynb`
-
-### Workflow
-
-<img src="workflow.png" height="600">
-
-## Cohorts
-
-UCSF (N = 669): University of California, San Francisco, CA, USA
-
-ISMMS (N = 615): Icahn School of Medicine at Mount Sinai, New York, NY, USA
-
-Emory (N = 60): Emory University, Atlanta, GA, USA
-
-- combined with ISMSS leads to results in sinai_emory_n675
-
-Cardiff (N = 317): University Hospital of Wales, Cardiff, UK
 
 ## License
 
