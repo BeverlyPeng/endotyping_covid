@@ -3,7 +3,7 @@
 
 This Github repository provides the code and result files related to the following manuscript. 
 
-Preprint: Peng et al. 2025 [medRxiv](https://www.medrxiv.org/content/10.1101/2025.11.16.25340350v2).
+Peng B, Dalhuisen T, Rogers A, Capric V, Davies HE, Deeks SG, Dupont CL, Estevez J, Freire M, Haddad NS, Jones SA, Kelly JD, Ladell K, Lee FE, Martin JN, Miners KL, Peluso MJ, Price DA, Proal AD, Putrino D, Scheuermann RH, VanElzakker MB, Zhang Y, Tan GS, Qian Y. Machine Learning Analysis of Post-Acute COVID Symptoms Identifies Distinct Clusters, Severity Groups, and Trajectories. medRxiv [Preprint]. 2025 Dec 22:2025.11.16.25340350. doi: 10.1101/2025.11.16.25340350. PMID: 41332817; PMCID: PMC12668058. [medRxiv](https://www.medrxiv.org/content/10.1101/2025.11.16.25340350v2).
 
 Supplementary Materials: https://github.com/BeverlyPeng/endotyping_covid/blob/main/Supplementary%20Materials.xlsx
 
