@@ -3,7 +3,7 @@
 
 This Github repository provides the code and result files related to the following manuscript. 
 
-Preprint: Peng et al. 2025 [https://www.biorxiv.org/content/10.1101/2025.04.10.648034v1](https://www.biorxiv.org/content/10.1101/2025.04.10.648034v1).
+Preprint: Peng et al. 2025 [medRxiv](https://www.medrxiv.org/content/10.1101/2025.11.16.25340350v2).
 
 Supplementary Materials: https://github.com/BeverlyPeng/endotyping_covid/blob/main/Supplementary%20Materials.xlsx
 
